@@ -1,0 +1,274 @@
+/* CSS Theme based from: http://templated.co/privy License: Creative Commons Attribution
+   Date: Feb 11, 2016*/
+
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #202020;
+		font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #444444;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		color: #333333;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+
+	a
+	{
+		color: #2980b9;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+
+		font-size: 2.8em;
+		font-style: oblique;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: #6F6F6F;
+	}
+		
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 300px;
+		padding: 3em 0em;
+	}
+
+	#header ul 
+	{
+		list-style-type: circle;
+		padding: 0em 5em;
+		font-weight: 700;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#header ul li 
+	{
+		padding: 15px 0px;
+		font-size: 1em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 4em;
+	}
+	
+	#logo h1
+	{
+		display: block;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+	#logo span
+	{
+		padding-right: 0.1em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: rgba(255,255,255,0.3);
+	}
+
+	#logo span a 
+	{
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#logo img
+	{
+		display: inline-block;
+		margin-bottom: 1em;
+		border-radius: 50%;
+	}
+
+/*********************************************************************************/
+/* navigation                                                                          */
+/*********************************************************************************/
+	#navigation 
+	{
+		margin: 0px;
+		padding: 0px;
+   		height: 40px;
+   		width: 1000px;
+    		background: #202020;
+		position: relative;
+		left: 300px;
+	}
+
+	#navigation h1 
+	{
+		color: #2980b9
+		display:block;
+	}
+
+	#navigation li 
+	{
+		float: left;
+	}
+
+	#navigation ul 
+	{
+		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+	}
+
+	li a 
+	{
+    		display: block;
+		padding: 1em 5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: rgba(255,255,255,0.5);
+	}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		margin-bottom: 4em;
+	}
+
+	#banner img {
+		
+		-ms-transform: rotate(90deg); /* IE 9 */
+    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		-moz-transform: rotate(90deg); /*firefox*/
+    		transform: rotate(90 deg);
+		width: 40%;
+		height: 40%;
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		background: #2a2a2a;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		overflow: hidden;
+		float: right;
+		width: 800px;
+		padding: 2em 50px 5em 50px;
+		background: #FFF;
+		border-top: 6px solid #2980b9;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		overflow: hidden;
+		margin-bottom: 3em;
+		padding-top: 5em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright span
+	{
+		display: block;
+		letter-spacing: 0.20em;
+		line-height: 2.5em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(0,0,0,0.7);
+	}
+	
+
+
+
