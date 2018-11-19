@@ -18,7 +18,7 @@ export default class Resume extends Component {
     		</div>
     		<div id="header">
     			<div id="logo">
-    				
+    			    
     				<h1><a href="#">Brandon Cheung</a></h1>
     				<span> Important Points </span>
     			</div>
