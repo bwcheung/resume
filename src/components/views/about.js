@@ -1,72 +1,44 @@
 import React, { Component } from "react";
 import { browserHistory, Link } from 'react-router';
 
-export default class Resume extends Component {
+export default class About extends Component {
+  componentDidMount() {
+    browserHistory.push('/');
+  }
   render() {
-	  console.log(this.props.title);
+	var unlock = false;
     return (
     	<div>
     	<div id="header">
     		<div id="logo">
-    		
-    			<h1><Link to="/">Brandon Cheung</Link></h1>
+    			
+    			<h1><a href="#">Brandon Cheung</a></h1>
     			<span> Important Points </span>
     		</div>
     		 
     		<ul>
-      			<li>JavaScipt <span className="fa fa-star checked"></span>
+      			<li>Diligent</li>
+      			<li>Fast Learner</li>
+      			<li>Genuine Interest in Computer Science</li>
+     			<li>Work Well With Others</li>
+     			<li>Motivated</li>
+     			
+     			<li>Critical Thinking <span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span></li>
       			
-      			<li>Java <span className="fa fa-star checked"></span>
+      			<li>Problem Solving <span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>Python <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-     			<li>Html <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>CSS <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>C <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>SQL <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>C# <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>C++ <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>PHP <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
     		</ul>
     	</div>
     	<div id="main">
     		<div id="banner">
-    		
+ 
     		</div>
     		<div id="welcome">
     			<div className="title">
