@@ -231,6 +231,7 @@
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
+		height: 100vh;
 	}
 
 /*********************************************************************************/
@@ -239,9 +240,10 @@
 
 	#main
 	{
-		overflow: hidden;
+		overflow: auto;
 		float: right;
 		width: 800px;
+		height: 100%;
 		padding: 2em 50px 5em 50px;
 		background: #FFF;
 		border-top: 6px solid #2980b9;
