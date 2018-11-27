@@ -12,4 +12,5 @@ export default (
     <Route path='resume' component={Resume}/>
     <Route path='*' component={About} />
   </Route>
+    
 );
