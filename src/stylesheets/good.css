@@ -215,8 +215,7 @@
 	#banner img {
 		
 		-ms-transform: rotate(90deg); /* IE 9 */
-    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-		-moz-transform: rotate(90deg); /*firefox*/
+    	
     		transform: rotate(90 deg);
 		width: 40%;
 		height: 40%;
