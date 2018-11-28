@@ -39,7 +39,7 @@ export default class About extends Component {
     	</div>
     	<div id="main">
     		<div id="banner">
- 
+    		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/logo.jpg" />
     		</div>
     		<div id="welcome">
     			<div className="title">
