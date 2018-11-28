@@ -9,7 +9,7 @@ export default class Resume extends Component {
 
     	<div id="header">
     		<div id="logo">
-    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/logo.jpg" />
+    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/logo.jpg" />
     			<h1><Link to="/">Brandon Cheung</Link></h1>
     			<span> Important Points </span>
     		</div>
@@ -23,29 +23,21 @@ export default class Resume extends Component {
     		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/281769.jpg" />
     		</div>
     		<div id="welcome">
-    			<div className="title">
-    				<h2>EMAIL</h2>
-    			</div>
     			<p>bwcheung8@gmail.com</p>
     		</div>
     		
     		<div id="featured">
-    		<div id="banner">
-    		<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
-    		</div>
-    			<div className="title">
-    				<h2>GITHUB</h2>
+    			<div id="banner">
+    			<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
     			</div>
     			<p><a href="https://github.com/bwcheung"target="_blank" rel="noopener noreferrer">https://github.com/bwcheung</a></p>
     		</div>
     		
     		<div id="featured">
-    			<div className="title">
-    				<h2>LinkedIN</h2>
+    			<div id="banner">
+    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/Logo-Black-101px-R.png" />
     			</div>
-    			<p>    • Received orders and served food to customers.<br/>
-    		    • Actively interacting with customers by advertising the stall and by recommending dishes.<br/>
-    		    • Assisted with daily setup and cleanup.</p>
+    			<p><a href="https://linkedin.com/in/bwcheung/"target="_blank" rel="noopener noreferrer">https://linkedin.com/in/bwcheung</a> </p>
     		</div>
     	
     		<div id="copyright">
