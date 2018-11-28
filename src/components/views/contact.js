@@ -20,7 +20,7 @@ export default class Resume extends Component {
     	</div>
     	<div id="main">
     		<div id="banner">
-    		<img src="https://image.flaticon.com/icons/svg/281/281769.svg" />
+    		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/281769.jpg" />
     		</div>
     		<div id="welcome">
     			<div className="title">
@@ -30,6 +30,9 @@ export default class Resume extends Component {
     		</div>
     		
     		<div id="featured">
+    		<div id="banner">
+    		<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
+    		</div>
     			<div className="title">
     				<h2>GITHUB</h2>
     			</div>
@@ -38,8 +41,7 @@ export default class Resume extends Component {
     		
     		<div id="featured">
     			<div className="title">
-    				<h2>Taste of Edmonton</h2>
-    				<span> Food Attendant for Lignan | July 20 - 29 2014 </span>
+    				<h2>LinkedIN</h2>
     			</div>
     			<p>    • Received orders and served food to customers.<br/>
     		    • Actively interacting with customers by advertising the stall and by recommending dishes.<br/>
