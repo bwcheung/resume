@@ -6,14 +6,7 @@ export default class Resume extends Component {
 	  console.log(this.props.title);
     return (
     	<div id="page" className="container">
-    	<div id="navigation">
-		<ul>
-			<li><Link to="/">Home</Link></li>
-			<li><Link to="/resume">Resume</Link></li>
-  			<li><Link to="/game">Game</Link></li>
-  			<li><Link to="/contact">Contact</Link></li>
-		</ul>
-		</div>
+
     	<div id="header">
     		<div id="logo">
     			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/logo.jpg" />
