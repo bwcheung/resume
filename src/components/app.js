@@ -7,7 +7,7 @@ export default class App extends Component {
   render() {
     return (
     		
-    		<div>
+    		<body>
     		<div id="navigation">
     		<ul>
     			<li><Link to="/">Home</Link></li>
@@ -17,7 +17,7 @@ export default class App extends Component {
     		</ul>
     		</div>
     		{this.props.children}
-    		</div>
+    		</body>
     );
   }
 }
