@@ -5,27 +5,6 @@ import { Link } from 'react-router';
 
 export default class App extends Component {
 	
-	constructor() {
-		super();
-		this.width = window.innerWidth;
-		this.height= window.innderHeight;
-	}
-	
-	componentDidMount() {
-		window.addEventListener('resize',  this.handleResize.bind(this, false));
-	}
-	
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize);
-	}
-	
-	handleResize(value, e){
-		this.width = window.innerWidth;
-		this.height= window.innderHeight;
-		document.getElementById('page').style.height = window.innerHeight + 'px';
-		console.log(window.innerHeight);
-	 }
-	
   render() {
     return (
     		
