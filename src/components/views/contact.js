@@ -23,7 +23,7 @@ export default class Resume extends Component {
     		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/281769.jpg" />
     		</div>
     		<div id="welcome">
-    			<p>bwcheung8@gmail.com</p>
+    			<p>bwcheung@gmail.com</p>
     		</div>
     		
     		<div id="featured">
