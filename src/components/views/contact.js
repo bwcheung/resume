@@ -18,7 +18,7 @@ export default class Resume extends Component {
     		</ul>
     	</div>
     	<div id="main">
-    		<div id="banner">
+    		<div id="logo2">
     		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/281769.jpg" />
     		</div>
     		<div id="welcome">
@@ -26,14 +26,14 @@ export default class Resume extends Component {
     		</div>
     		
     		<div id="featured">
-    			<div id="banner">
+    			<div id="logo2">
     			<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
     			</div>
     			<p><a href="https://github.com/bwcheung"target="_blank" rel="noopener noreferrer">https://github.com/bwcheung</a></p>
     		</div>
     		
     		<div id="featured">
-    			<div id="banner">
+    			<div id="logo2">
     			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/Logo-Black-101px-R.png" />
     			</div>
     			<p><a href="https://linkedin.com/in/bwcheung/"target="_blank" rel="noopener noreferrer">https://linkedin.com/in/bwcheung</a> </p>
