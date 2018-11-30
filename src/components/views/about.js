@@ -46,7 +46,8 @@ export default class About extends Component {
     				<h2>Introduction</h2>
     			</div>
     			<p>Hi! My Name is Brandon Cheung. This is a online resume I made that will hopefully help potential employers
-    			to see if I will be a good fit for their company.</p>
+    			to see if I will be a good fit for their company. The resume tab shows my professional history and the game
+    			tab is my interactive resume.</p>
     		</div>
     		<div id="featured">
     			<div className="title">
