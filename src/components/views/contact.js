@@ -3,7 +3,6 @@ import { browserHistory, Link } from 'react-router';
 
 export default class Resume extends Component {
   render() {
-	  console.log(this.props.title);
     return (
     	<div id="page" className="container">
 
@@ -23,7 +22,7 @@ export default class Resume extends Component {
     		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/281769.jpg" />
     		</div>
     		<div id="welcome">
-    			<p>bwcheung@gmail.com</p>
+    			<p>bwcheung8@gmail.com</p>
     		</div>
     		
     		<div id="featured">

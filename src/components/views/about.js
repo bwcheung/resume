@@ -6,10 +6,8 @@ export default class About extends Component {
     browserHistory.push('/');
   }
   render() {
-	var unlock = false;
     return (
     	<div id="page" className="container">
-
     	<div id="header">
     		<div id="logo">
     			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/logo.jpg" />
@@ -39,7 +37,7 @@ export default class About extends Component {
     	</div>
     	<div id="main">
     		<div id="banner">
-    		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/logo.jpg" />
+    		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/20181129_224920.jpg" />
     		</div>
     		<div id="welcome">
     			<div className="title">

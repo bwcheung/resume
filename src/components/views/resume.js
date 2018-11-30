@@ -3,7 +3,6 @@ import { browserHistory, Link } from 'react-router';
 
 export default class Resume extends Component {
   render() {
-	  console.log(this.props.title);
     return (
     	<div id="page" className="container">
 
