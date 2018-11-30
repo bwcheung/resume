@@ -40,7 +40,7 @@ export default class Resume extends Component {
     		</div>
     	
     		<div id="copyright">
-    			<span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</span>
+    			<span>Design by <a href="http://templated.co" target="_blank" rel="noopener noreferrer">TEMPLATED</a>.</span>
     		</div>
     	</div>
     	</div>
