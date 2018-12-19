@@ -21,6 +21,7 @@ export default class About extends Component {
       			<li>Genuine Interest in Computer Science</li>
      			<li>Work Well With Others</li>
      			<li>Motivated</li>
+     			<li>Excellent Customer Service</li>
      			
      			<li>Critical Thinking <span className="fa fa-star checked"></span>
       			<span className="fa fa-star checked"></span>
