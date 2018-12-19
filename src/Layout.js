@@ -20,6 +20,7 @@ export default class Layout extends React.Component {
 				screen: {
 					width: window.innerWidth,
 					height: window.innerHeight,
+					ratio: window.devicePixelRatio || 1,
 				},
 				context: null,
 				context2: null,
@@ -104,6 +105,7 @@ export default class Layout extends React.Component {
 	      screen : {
 	        width: window.innerWidth,
 	        height: window.innerHeight,
+	        ratio: window.devicePixelRatio || 1,
 	      },
 	    });
 	  }
@@ -143,6 +145,7 @@ export default class Layout extends React.Component {
 		const ctx = this.state.context;
 		
 		ctx.save();
+		ctx.scale(this.state.screen.ratio, this.state.screen.ratio);
 		ctx.canvas.width = this.state.screen.width;
 		ctx.canvas.height = this.state.screen.height;
 		
@@ -295,12 +298,12 @@ export default class Layout extends React.Component {
 	    return (
 	     <div>
 	     	<canvas ref="canvas" id = "background"
-	     		width = {this.state.screen.width }
-	     		height = {this.state.screen.height } 	 
+	     		width = {this.state.screen.width * this.state.screen.ratio}
+	     		height = {this.state.screen.height * this.state.screen.ratio} 	 
 	    	 	/>
 	     	<canvas ref = "canvas2" id = "player"
-	     		width = {this.state.screen.width }
-	 	 		height = {this.state.screen.height }
+	     		width = {this.state.screen.width * this.state.screen.ratio}
+	 	 		height = {this.state.screen.height * this.state.screen.ratio}
 		 		/>
 	     	{menuText}
 	     	{endGame}
