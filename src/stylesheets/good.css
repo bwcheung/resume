@@ -242,7 +242,18 @@
 	
 	}
 	
-
+	@media only screen and (max-height: 600) {
+		#page
+		{
+			background: #2a2a2a;
+			overflow: inherit;
+			margin: 0em auto;
+			width: 1200px;
+			height: 1500px;
+		
+		}
+	
+	}
 	
 
 /*********************************************************************************/
