@@ -72,14 +72,30 @@ export default class Layout extends React.Component {
         
         this.setState({ keys:keys });
 	}
-
+	
+	hanleTouchStart(evt) {
+		let keys = this.state.keys;
+		keys.space = true;
+		this.setState( { keys:keys })
+	}
+	
+	hanleTouchEnd(evt) {
+		let keys = this.state.keys;
+		keys.space = false;
+		this.setState( { keys:keys })
+	}
+	
 	
 	componentDidMount() {
 		window.addEventListener('keyup', this.handlekeys.bind(this, false));
 		window.addEventListener('keydown', this.handlekeys.bind(this, true));
 		window.addEventListener('resize',  this.handleResize.bind(this, false));
+		
 		const ctx = this.refs.canvas.getContext("2d");
 		const ctx2 = this.refs.canvas2.getContext("2d");
+		
+		window.addEventListener('touchstart', this.hanleTouchStart.bind(this), false);
+		window.addEventListener('touchend', this.hanleTouchEnd.bind(this), false);
 		
 		this.initialize();	
 		this.setState({context2:ctx2});
@@ -98,6 +114,8 @@ export default class Layout extends React.Component {
 		window.removeEventListener('keyup', this.handlekeys);
 		window.removeEventListener('keydown', this.handlekeys);
 		window.removeEventListener('resize', this.handleResize);
+		window.removeEventListener('touchstart', this.hanleTouchStart);
+		window.removeEventListener('touchend', this.hanleTouchEnd);
 	}
 	
 	handleResize(value, e){
@@ -113,8 +131,8 @@ export default class Layout extends React.Component {
 	initialize() {
 		
 		this.guy = new sprite({
-			positionX: 0,
-			positionY: 0,
+			positionX: 10,
+			positionY: 10,
 			frameIndex: 0,
 			width: 520,
 			height: 300,
