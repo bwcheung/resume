@@ -56,21 +56,20 @@ export default class About extends Component {
     			To be honest the computer science field was not my first choice in a career path. It was not until during one 
     			of my software development class, where I had to finish coding a lunar lander game, that I realized coding 
     			can be fun and rewarding. Now I find coding like a open world game, where there are multiple paths to a solution,
-    			but it is up to the player to find most efficient path. Therefore, because I am an avid gamer, I find it fun to 
-    			work my hardest to find the most efficient solution and because of this interest, I have a long term goal of someday
-    			working in game development.</p>
+    			but it is up to the player to find most efficient path. Therefore, because I am an avid gamer, it is in my nature
+    			to do whatever possible to find the most efficient solution. This realization became a passion for me and now I
+    			have a long term goal of someday developing my own web app, mobile app or game. In order to achieve this goal, 
+    			I am motivated and excited to learn and gain new experience.</p>
     		</div>
     		<div id="featured">
     			<div className="title">
     				<h2>For Potential Employers</h2>
     			</div>
     			<p> Although I have yet to acquire any work experience in a related computer science field, I have a genuine 
-    			interest in computer science therefore I am willing to learn and/or be guided to do any work necessary. 
-    			I am a fast learner, diligent, and motivated to learn new technical skills. I can work individually or 
-    			with others.</p>
-    		</div>
-    		<div id="copyright">
-    			<span>Design by <a href="http://templated.co" target="_blank" rel="noopener noreferrer">TEMPLATED</a>.</span>
+    			interest in computer science. Therefore I am willing to learn and/or be guided to do any work necessary. 
+    			I am a fast learner, diligent, and motivated to learn new technical skills. I have worked in group projects where
+    			we would implement the scrum methodology. For example, we would have stand up meeting each week. As a result I am
+    			able to communicate efectively. Thank you for taking a look at my online resume and I hope to hear from you soon.</p>
     		</div>
     	</div>
     	</div>

@@ -39,9 +39,6 @@ export default class Resume extends Component {
     			<p><a href="https://linkedin.com/in/bwcheung/"target="_blank" rel="noopener noreferrer">https://linkedin.com/in/bwcheung</a> </p>
     		</div>
     	
-    		<div id="copyright">
-    			<span>Design by <a href="http://templated.co" target="_blank" rel="noopener noreferrer">TEMPLATED</a>.</span>
-    		</div>
     	</div>
     	</div>
     );

@@ -123,11 +123,6 @@ export default class Resume extends Component {
 			    • Dealt with various customers and situations at hand using good communication and problem solving skills.<br/> 
 			    • Directed and guided customers as a ticket usher and a floor attendant.</p>
 			</div>
-
-			
-    		<div id="copyright">
-    			<span>Design by <a href="http://templated.co" target="_blank" rel="noopener noreferrer">TEMPLATED</a>.</span>
-    		</div>
     	</div>
     	</div>
     );
