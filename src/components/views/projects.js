@@ -94,7 +94,7 @@ export default class Resume extends Component {
     		
     		<div id="featured">
     			<div className="title">
-    				<h2><a href="hhttps://github.com/CMPUT404-FireBreathingRubberDuckies/CMPUT404-project-socialdistribution"target="_blank" rel="noopener noreferrer">
+    				<h2><a href="https://github.com/CMPUT404-FireBreathingRubberDuckies/CMPUT404-project-socialdistribution"target="_blank" rel="noopener noreferrer">
     				Social Networking Website</a></h2>
     				<span> Frontend - HTML/JAVASCRIPT  |  Backend - DJANGO(PYTHON)</span>
     			</div>
