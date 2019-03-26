@@ -8,7 +8,7 @@ export default class Resume extends Component {
 
     	<div id="header">
     		<div id="logo">
-    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/GitHub-Mark-120px-plus.png" />
+    			<img src="https://github.com/bwcheung/resume/blob/master/pics/logo.jpg?raw=true" />
     			<h1><Link to="/">Brandon Cheung</Link></h1>
     			<span> Important Points </span>
     		</div>
@@ -27,7 +27,7 @@ export default class Resume extends Component {
     		
     		<div id="featured">
     			<div id="logo2">
-    			<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
+    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/GitHub-Mark-120px-plus.png" />
     			</div>
     			<p><a href="https://github.com/bwcheung"target="_blank" rel="noopener noreferrer">https://github.com/bwcheung</a></p>
     		</div>
