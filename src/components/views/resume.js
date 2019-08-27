@@ -76,7 +76,7 @@ export default class Resume extends Component {
     			<p> • Maintained and managed existing website by fixing bugs, updating pages, and adding new features to improve user experience.<br/>
     		    • Utilized existing MYSQL database to store and update personal user accounts on the website. Applied SQL queries to search and sort through data.<br/>
     		    • As the sole IT employee, had to quickly determine the whole structure of the website and how it runs. Made independent choices on what to change and improve.<br/>
-    		    • Improved website quality by adding SSL. 
+    		    • Improved website quality by adding SSL.<br/>
     		    • Learned Wordpress on the job for front end developing. </p>
     		</div>
 	    
