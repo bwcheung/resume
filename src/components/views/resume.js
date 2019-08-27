@@ -68,7 +68,19 @@ export default class Resume extends Component {
     		<div id="banner">
     		
     		</div>
-    		<div id="welcome">
+	    	<div id="welcome">
+    			<div className="title">
+    				<h2>Society for Talent Education</h2>
+    				<span> Web Developer (Wordpress, HTML, PHP, CSS, MYSQL) | May 2019 - August 2019  </span>
+    			</div>
+    			<p> • Maintained and managed existing website by fixing bugs, updating pages, and adding new features to improve user experience.<br/>
+    		    • Utilized existing MYSQL database to store and update personal user accounts on the website. Applied SQL queries to search and sort through data.<br/>
+    		    • As the sole IT employee, had to quickly determine the whole structure of the website and how it runs. Made independent choices on what to change and improve.<br/>
+    		    • Improved website quality by adding SSL. 
+    		    • Learned Wordpress on the job for front end developing. </p>
+    		</div>
+	    
+    		<div id="featured">
     			<div className="title">
     				<h2>King Star Imports</h2>
     				<span> Accountanting Clerk | September 2016 - April 2018  </span>
