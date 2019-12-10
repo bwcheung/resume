@@ -8,7 +8,7 @@ export default class App extends Component {
   render() {
     return (
     		
-    		<body>
+    		
     		<div id="navigation">
     		<ul>
     			<li><Link to="/">Home</Link></li>
@@ -19,7 +19,7 @@ export default class App extends Component {
     		</ul>
     		</div>
     		{this.props.children}
-    		</body>
+    		
     );
   }
 }
