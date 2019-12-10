@@ -270,7 +270,7 @@
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
-
+	
 	#main
 	{
 		overflow: auto;
@@ -301,14 +301,14 @@
 		}
 	}
 
-	@media only screen and (min-width: 400px) {
+	@media only screen and (min-width: 400px) and (max-width: 900px) {
 		#main
 		{
 		overflow: auto;
     		float: right;
-    		width: 208%;
+    		width: 408%;
     		height: 100%;
-    		padding: 0em 50px 0em 50px;
+   		padding: 0em 50px 0em 50px;
     		background: #FFF;
     		border-top: 0px solid #2980b9;
     		text-align: center;
