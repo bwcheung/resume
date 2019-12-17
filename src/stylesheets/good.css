@@ -335,6 +335,22 @@
 		}
 	}
 
+	@media only screen and (min-width: 900px) and (max-width: 1000px) {
+		#main
+		{
+		overflow: auto;
+    		float: right;
+    		width: 133%;
+    		height: 100%;
+    		padding: 0em 50px 0em 50px;
+    		background: #FFF;
+    		border-top: 0px solid #2980b9;
+    		text-align: center;
+    		position: absolute;
+    		left: 30%;
+		}
+	}
+
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
