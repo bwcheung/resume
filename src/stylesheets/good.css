@@ -36,7 +36,13 @@
 	{
 		margin-top: 0;
 	}
+	@media only screen and (max-width: 400px) {
+		ol, ul
+		{
+			padding: 0em 6em;
+		}
 	
+	}
 	ol, ul
 	{
 		padding: 0;
