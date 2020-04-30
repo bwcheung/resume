@@ -236,7 +236,6 @@
 	#banner img {
 		
 		-ms-transform: rotate(90deg); /* IE 9 */
-    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 		-moz-transform: rotate(90deg); /*firefox*/
 		-webkit-backface-visibility: hidden;
   		backface-visibility: hidden;
