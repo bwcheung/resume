@@ -60,7 +60,9 @@ export default class Resume extends Component {
       			<span className="fa fa-star checked"></span></li>
       			
       			<li>PHP <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
+      			<span className="fa fa-star checked"></span>
+	    		<span className="fa fa-star checked"></span>
+	    		<span className="fa fa-star checked"></span></li>
       			
     		</ul>
     	</div>
