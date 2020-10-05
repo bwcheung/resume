@@ -170,13 +170,8 @@
 		display: inline-block;
 		margin-bottom: 1em;
 		border-radius: 50%;
-		height: 100px;
-	}
-	
-	#logo2 img
-	{
-		width: 100px;
-		height: 100px;
+		height: 100%;
+		wideht: 100%;
 	}
 
 /*********************************************************************************/
