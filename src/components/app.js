@@ -16,6 +16,9 @@ export default class App extends Component {
     			<li><Link to="/projects">Projects</Link></li>
       			<li><Link to="/game">Game</Link></li>
       			<li><Link to="/contact">Contact</Link></li>
+	    		<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a></li>
     		</ul>
     		</div>
     		{this.props.children}
