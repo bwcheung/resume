@@ -16,24 +16,13 @@ export default class About extends Component {
     		</div>
     		 
     		<ul>
-      			<li>Diligent</li>
-      			<li>Fast Learner</li>
-      			<li>Genuine Interest in Computer Science</li>
+      	  <li>Diligent</li>
+      		<li>Fast Learner</li>
+      		<li>Genuine Interest in Computer Science</li>
      			<li>Work Well With Others</li>
      			<li>Motivated</li>
-     			<li>Excellent Customer Service</li>
-     			
-     			<li>Critical Thinking <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
-      			
-      			<li>Problem Solving <span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span>
-      			<span className="fa fa-star checked"></span></li>
+     			<li>Critical Thinking</li>
+      		<li>Problem Solving</li>
     		</ul>
     	</div>
     	<div id="main">
