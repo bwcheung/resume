@@ -105,6 +105,8 @@
 		position: relative;
 		float: left;
 		width: 20%;
+		height: 100%;
+		overflow: hidden;
 		padding: 3em 2em;
 	}
 	@media only screen and (max-width: 400px) {
