@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
     		
     		<body>
-    		<div id="navigation">
+    		<div class="topnav" id="navigation">
     		<ul>
     			<li><Link to="/">Home</Link></li>
     			<li><Link to="/resume">Resume</Link></li>
