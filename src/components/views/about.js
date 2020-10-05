@@ -10,7 +10,7 @@ export default class About extends Component {
     	<div id="page" className="container">
     	<div id="header">
     		<div id="logo">
-    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/logo.jpg" />
+    			<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/20181129_224920.jpg" />
     			<h1><Link to="/">Brandon Cheung</Link></h1>
     			<span> Important Points </span>
     		</div>
@@ -37,9 +37,6 @@ export default class About extends Component {
     		</ul>
     	</div>
     	<div id="main">
-    		<div id="banner">
-    		<img src="https://raw.githubusercontent.com/bwcheung/resume/master/pics/20181129_224920.jpg" />
-    		</div>
     		<div id="welcome">
     			<div className="title">
     				<h2>Introduction</h2>
